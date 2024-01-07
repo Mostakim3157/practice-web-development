@@ -142,6 +142,7 @@ nav {
   margin: 0 auto;
   border-radius: 10px;
   background: #fff8f3;
+  margin-top: 150px;
 }
 
 .about-heading {
@@ -150,7 +151,7 @@ nav {
   font-size: 35px;
   font-weight: 700;
   margin-top: 80px;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .about-discription {
@@ -165,11 +166,10 @@ nav {
 .about-details {
   display: flex;
   justify-content: space-around;
- 
 }
 
-.about-title{
-    align-items: center;
+.about-title {
+  align-items: center;
 }
 .about-tag {
   color: var(--Dark-03, #757575);
@@ -184,8 +184,63 @@ nav {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   padding-top: 0;
   margin-top: 10px;
-  
+}
+
+/* what i do starts */
+.what-i-do {
+  margin-top: 150px;
+}
+
+.what-i-do-details > h3 {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.what-i-do-details > p {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.my-skills {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.my-skills > img{
+padding-left:70px ;
+}
+
+.skills-name {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skills_discrption {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 14px;
 }
